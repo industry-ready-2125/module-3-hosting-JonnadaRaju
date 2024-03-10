@@ -1,0 +1,83 @@
+/* Add this to the existing CSS or create a new stylesheet for page03.html */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #232f3e;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+main { 
+    padding: 20px;
+    background-color:skyblue;
+}
+
+.welcome-message {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.featured-content {
+    text-align: center;
+    margin: 30px auto;
+    max-width: 1500px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.movie-item {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.movie-item img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 10px;
+}
+
+.watchlist {
+    margin-top: -20px;
+    max-width: 1150%;
+    display:flex;
+    text-align: center;
+    
+}
+footer {
+    background-color: #232f3e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

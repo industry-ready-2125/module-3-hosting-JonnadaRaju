@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('iimages/prime_video_back.jpg');
+}
+
+header {
+    background-color: #232f3e;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    padding-top: 230px;
+    align-content: center;
+}
+
+.hero {
+    text-align: center;
+    margin: 50px 0;
+    color: white;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #ff9900;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.featured {
+    margin-top: 30px;
+}
+
+footer {
+    background-color: #232f3e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* Add this to the existing CSS */
+.featured {
+    margin-top: 30px;
+}
+
+.movie-posters {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.poster {
+    width: 30%; /* Adjust as needed */
+    margin-bottom: 20px;
+}
+
+.poster img {
+    width: 100%;
+    border-radius: 5px;
+}
