@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('./prime_video_back.jpg');
+    background-image: url(./prime_video_back.jpg);
 }
 
 header {
